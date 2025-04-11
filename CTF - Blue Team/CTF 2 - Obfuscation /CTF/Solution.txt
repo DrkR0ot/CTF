@@ -1,1 +1,16 @@
+## Solution : 
+# Etape 1 : Reverse le code 
+$x="==AAiAgLAUGAjBgbAEGAoBwYAACAlBgbA4GAvBgQAACAuAwcAUGAsBQdAMGAzBQdAoGAhBQbAACA0AAIAEGAgAQeAACAsBQSAACAuAwcAUGAzBA6AgGA0BgbAUGAyBQYAAHAgAQZAIHA0BgbAUGAgAQZAQGAuBQYA0GAtBwbAMGAgAQYAwGAgAAdAMHAlBAIAcGAhBAbAYGAgAQdAEGAgAgcAUGAkBQ6AMGAjBQYAACAyBQdA8GAwBAIAUGAzBwcAEGAwBAIAUGAkBAIAQHAvBQbAACAlBATAICAgAQKAQHAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAUHAqAQLAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAwVAACAtBwYAcGAoAgJ".ToCharArray(); [array]::reverse($x); $x -join ""
 
+# Etape 2 : 
+# Décoder le base 64 
+[System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('JgAoAGcAYwBtACAAVwAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoALQAqAHUAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqAHQAKQAgACIATABlACAAbQBvAHQAIABkAGUAIABwAGEAcwBzAGUAIABwAG8AdQByACAAYQBjAGMA6QBkAGUAcgAgAGEAdQAgAGYAbABhAGcAIABlAHMAdAAgAGwAYQAgAGMAbwBtAG0AYQBuAGQAZQAgAGUAbgB0AHIAZQAgAHAAYQByAGUAbgB0AGgA6ABzAGUAcwAuACAASQBsACAAeQAgAGEAIAA0ACAAbQBhAGoAdQBzAGMAdQBsAGUAcwAuACAAQgBvAG4AbgBlACAAYwBoAGEAbgBjAGUALgAiAA=='))
+
+# Etape 3 : Comprendre que gcm est l'alias de la commande Get-Command qui elle même permet d'afficher les alias.
+
+# Etape 4 : Comprendre le fonctionnement des *. L'indice est que la 2ième lettre après le tiret est un "u" et qu'en réalité Powershell interprète la commande malgré X nombre de "*" donc cela ne représente pas la longueur de la commande.
+
+# Etape 3 : Saisir le mot du passe pour ouvrir le fichier flag : Get-Command Write-Output
+
+# Etape 4 : Décoder le flag encoder en byte 
+Il suffit de rajouter "[char]" devant l'ensemble de la chaine. L'indice ici est de regarder le formatage de la chaine d ecaractère. On observe alors qu'un [char] a été retiré au début.

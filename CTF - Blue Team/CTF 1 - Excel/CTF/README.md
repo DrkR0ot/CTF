@@ -10,19 +10,24 @@ Le but de ce challenge est de progresser dans l'utilisation des outils natifs de
 
 ### Étapes à suivre
 
-1. **Copier le CTF sur votre bureau**  
-   Téléchargez et copiez le dossier du CTF directement sur votre bureau.
+1.**Installation des scripts**
+    1. Coller les fichiers : Script.ps1, Anonymous.jpg et Popup.cmd sur un serveur de fichiers accessible à tous les participants.
+    2. Modifier la macro (Alt+F11) du fichier Excel qui est encodée en Base64 pour l'adapter. 
+    3. Modifier le chemin dans le fichier Script.ps1 pour l'adapter.
+    
+2. **Copier le CTF sur votre bureau**  
+   Téléchargez et copiez le fichier Excel directement sur votre bureau.
+    
+3. **Ouvrir l'explorateur de fichiers**  
+   Accédez à l'emplacement où vous avez collé le fichier Excel.
 
-2. **Ouvrir l'explorateur de fichiers**  
-   Accédez à l'emplacement où vous avez collé le CTF.
-
-3. **Débloquer les fichiers** *(si nécessaire)*  
-   - Cliquez avec le bouton droit sur le fichier ou le dossier.
+4. **Débloquer le fichier** *(si nécessaire)*  
+   - Cliquez avec le bouton droit de votre souris sur le fichier.
    - Sélectionnez **Propriétés**.
    - En bas de la fenêtre, dans la section **Sécurité**, cochez l'option **Débloquer** (si une GPO bloque l'exécution).
 
-4. **Lancer le CTF**  
-   Ouvrez le fichier ou le programme pour commencer le challenge.
+5. **Lancer le CTF**  
+   Ouvrez le fichier Excel en activant les macros pour commencer le challenge.
 
 ---
 

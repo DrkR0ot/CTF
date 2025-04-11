@@ -1,7 +1,7 @@
 # CTF 3 - ZIP
 
-L'objectif de ce CTF est d'améliorer nos connaissances sur les globales des fichiers comme Excel, Word ou encore powerpoint etc. (ici Excel).
-Il n'est pas impossible qu'un jour vous recez un fichier Word, Excel ou autre qui se voit corrompu. Auquel cas, au travers de ce CTF nous verrons une technique afin de recupérer son contenu malgré le fait qu'il est été corrompu (attention : Cela ne fonctionne pas toujours)
+L'objectif de ce CTF est d'améliorer nos connaissances sur la structure interne des fichiers comme Excel, Word ou encore PowerPoint (dans ce cas précis, Excel). Il n’est pas impossible qu’un jour vous receviez un fichier Word, Excel ou autre, qui semble corrompu. Dans ce cas, à travers ce CTF, nous verrons une technique permettant de récupérer son contenu, même s’il a été endommagé.
+⚠️ Attention : cette méthode ne fonctionne pas dans tous les cas.
 
 ## Objectif
 

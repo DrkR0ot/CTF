@@ -46,9 +46,10 @@ Le CTF est divisé en plusieurs niveaux, chacun présentant une difficulté croi
 
     Suivez les instructions fournies pour chaque niveau.
 
-Contribution
+## Contribution
 
 Les contributions sont les bienvenues ! Si vous souhaitez ajouter des niveaux ou des idées, n'hésitez pas à soumettre une pull request.
-Licence
+
+## Licence
 
 Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.

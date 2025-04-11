@@ -13,3 +13,10 @@ Trouver le mot de passe du fichier Word. Ce dernier contient le Flag de ce chall
 Vous devrez réaliser 5 étapes de déobfuscation et les comprendre.
 
 > **Astuce : pour progresser** Essayez de le réaliser sans l'aide de ChatGPT ! Tout le reste est autorisé 😊
+
+**Contribution**
+
+Les contributions sont les bienvenues ! Si vous souhaitez ajouter des niveaux ou des idées, n'hésitez pas à soumettre une pull request.
+
+**Licence**
+Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.

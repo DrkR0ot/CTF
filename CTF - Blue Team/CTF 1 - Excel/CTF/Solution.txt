@@ -1,1 +1,8 @@
-
+Etape 1 : Trouver la macro excel (Alt+F11)
+Etape 2 : Déobfusquer la macro en base64
+Etape 3 : Analyser le comportement de la macro 
+            Cette macro vient coller le fichier Script.ps1 du serveur de fichier sur le Bureau de l'utilisateur qui exécute la macro
+Etape 4 : Analyser le code du fichier Script.ps1 qui s'est collé avec l'attribut caché sur le bureau utilisateur
+            Le fichier Script.ps1 s'est exécuté. Outre le fait d'ouvrir et d'écrire dans WordPad, il copie colle le fichier PopUp.cmd dans le Menu Démarrer (afin d'établiur une persistance) de l'utilisateur qui a exécuter la macro.
+Etape 5 : Supprimer le fichier Popup.cmd dans le Menu Démarrer de l'utilisateur
+Etape 6 : Supprimer le fichier Script.ps1 

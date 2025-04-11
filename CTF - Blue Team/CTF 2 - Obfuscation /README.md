@@ -14,9 +14,10 @@ Vous devrez réaliser 5 étapes de déobfuscation et les comprendre.
 
 > **Astuce : pour progresser** Essayez de le réaliser sans l'aide de ChatGPT ! Tout le reste est autorisé 😊
 
-**Contribution**
+
+## **Contribution**
 
 Les contributions sont les bienvenues ! Si vous souhaitez ajouter des niveaux ou des idées, n'hésitez pas à soumettre une pull request.
 
-**Licence**
+## **Licence**
 Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.

@@ -1,55 +1,35 @@
-# CTF - Blue Team: CTF 1 - Excel
+# Blue Team : CTF 1 - Excel
 
-Bienvenue dans ce CTF axé sur l'analyse et la compréhension des macros Excel malveillantes à travers plusieurs niveaux de difficulté. Ce challenge est conçu pour les équipes Blue Team souhaitant renforcer leurs compétences en sécurité informatique.
+## Instructions pour le CTF
 
-## Description
+### Contexte
+Vous êtes sur un PC isolé. Vous pouvez lancer ce que vous voulez sur cette machine, **mais vous n'avez pas accès à Internet**. Autrement dit, **n'utilisez pas d'outils externes**.  
+Le but de ce challenge est de progresser dans l'utilisation des outils natifs de Windows, tels que **PowerShell**.
 
-Ce CTF se concentre sur l'analyse des fichiers Excel contenant des macros potentiellement malveillantes. Les participants devront identifier, analyser et comprendre les mécanismes utilisés par ces macros pour exécuter des actions malveillantes ou collecter des informations.
+---
 
-## Objectifs
+### Étapes à suivre
 
-- Identifier les macros dans les fichiers Excel.
-- Analyser leur fonctionnement et leur comportement.
-- Apprendre à détecter et à prévenir les menaces provenant des macros Excel.
-- Renforcer les compétences en analyse et investigation numérique.
+1. **Installation des scripts**
+    1. Coller les fichiers : Script.ps1, Anonymous.jpg et Popup.cmd sur un serveur de fichiers accessible à tous les participants.
+    2. Modifier la macro (Alt+F11) du fichier Excel qui est encodée en Base64 pour l'adapter (Warning : Il faut obfusquer votre nouvelle commande a l'aide de Powershell et non d'un outil tierce style CyberChef pour des problème de compatibilité, vous pouvez utiliser mon outil d'Obfuscsation Windows au besoin). 
+    3. Modifier le chemin dans le fichier Script.ps1 pour l'adapter.
+    
+2. **Copier le CTF sur votre bureau**  
+   Téléchargez et copiez le fichier Excel directement sur votre bureau.
+    
+3. **Ouvrir l'explorateur de fichiers**  
+   Accédez à l'emplacement où vous avez collé le fichier Excel.
 
-## Niveaux
+4. **Débloquer le fichier** *(si nécessaire)*  
+   - Cliquez avec le bouton droit de votre souris sur le fichier.
+   - Sélectionnez **Propriétés**.
+   - En bas de la fenêtre, dans la section **Sécurité**, cochez l'option **Débloquer** (si une GPO bloque l'exécution).
 
-Le CTF est divisé en plusieurs niveaux, chacun présentant une difficulté croissante :
-1. **Niveau 1** : Identification de macros simples.
-2. **Niveau 2** : Analyse de macros obfusquées.
-3. **Niveau 3** : Investigation d'actions malveillantes complexes.
-4. **Niveau 4** : Création d'un rapport détaillé et recommandations.
+5. **Lancer le CTF**  
+   Ouvrez le fichier Excel en activant les macros pour commencer le challenge.
 
-## Prérequis
+---
 
-- Connaissance de base des macros VBA (Visual Basic for Applications).
-- Familiarité avec les outils d'analyse de macros (par exemple, **oletools**, **VBA Editor**).
-- Environnement de travail sécurisé (machine virtuelle ou sandbox).
-
-## Ressources recommandées
-
-- [oletools](https://github.com/decalage2/oletools): Une suite d'outils pour l'analyse de fichiers Microsoft OLE et des macros VBA.
-- [CyberChef](https://gchq.github.io/CyberChef/): Outil polyvalent pour déchiffrer, décoder, et analyser des données.
-- [Any.Run](https://any.run/): Une plateforme d'analyse dynamique.
-
-## Comment participer
-
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/DrkR0ot/CTF.git
-
-    Rendez-vous dans le répertoire du challenge Excel :
-    bash
-
-    cd "CTF - Blue Team/CTF 1 - Excel"
-
-    Suivez les instructions fournies pour chaque niveau.
-
-## Contribution
-
-Les contributions sont les bienvenues ! Si vous souhaitez ajouter des niveaux ou des idées, n'hésitez pas à soumettre une pull request.
-
-## Licence
-
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
+### Remarque
+Amusez-vous bien ! 🎉

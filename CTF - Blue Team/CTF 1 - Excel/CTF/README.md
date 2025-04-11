@@ -1,4 +1,4 @@
-# CTF - Blue Team: CTF 1 - Excel
+# Blue Team : CTF 1 - Excel
 
 ## Instructions pour le CTF
 

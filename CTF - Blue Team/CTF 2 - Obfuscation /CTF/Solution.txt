@@ -14,3 +14,5 @@ $x="==AAiAgLAUGAjBgbAEGAoBwYAACAlBgbA4GAvBgQAACAuAwcAUGAsBQdAMGAzBQdAoGAhBQbAACA
 
 # Etape 4 : Décoder le flag encoder en byte 
 Il suffit de rajouter "[char]" devant l'ensemble de la chaine. L'indice ici est de regarder le formatage de la chaine d ecaractère. On observe alors qu'un [char] a été retiré au début.
+
+On récupère donc le flag : "Bravo tu as fini, le flag est : 0bfusc@710n_M@$73r3d"

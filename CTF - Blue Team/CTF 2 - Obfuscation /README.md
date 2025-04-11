@@ -7,6 +7,9 @@ En tant qu'attaquant, vous devez comprendre que réaliser la plupart de ces obfu
 ## Objectif
 
 Trouver le mot de passe du fichier Word. Ce dernier contient le Flag de ce challenge !
+Vous débuterez avec la chaine de caractères suivante :
+
+==AAiAgLAUGAjBgbAEGAoBwYAACAlBgbA4GAvBgQAACAuAwcAUGAsBQdAMGAzBQdAoGAhBQbAACA0AAIAEGAgAQeAACAsBQSAACAuAwcAUGAzBA6AgGA0BgbAUGAyBQYAAHAgAQZAIHA0BgbAUGAgAQZAQGAuBQYA0GAtBwbAMGAgAQYAwGAgAAdAMHAlBAIAcGAhBAbAYGAgAQdAEGAgAgcAUGAkBQ6AMGAjBQYAACAyBQdA8GAwBAIAUGAzBwcAEGAwBAIAUGAkBAIAQHAvBQbAACAlBATAICAgAQKAQHAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAUHAqAQLAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAwVAACAtBwYAcGAoAgJ
 
 ## Étapes
 

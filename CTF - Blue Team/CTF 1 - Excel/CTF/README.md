@@ -10,7 +10,7 @@ Le but de ce challenge est de progresser dans l'utilisation des outils natifs de
 
 ### Étapes à suivre
 
-1.**Installation des scripts**
+1. **Installation des scripts**
     1. Coller les fichiers : Script.ps1, Anonymous.jpg et Popup.cmd sur un serveur de fichiers accessible à tous les participants.
     2. Modifier la macro (Alt+F11) du fichier Excel qui est encodée en Base64 pour l'adapter. 
     3. Modifier le chemin dans le fichier Script.ps1 pour l'adapter.

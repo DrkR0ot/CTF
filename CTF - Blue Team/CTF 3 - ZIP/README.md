@@ -10,7 +10,7 @@ Renseignez vous sur les diverses façons d'ouvrir un fichier Excel.
 
 ## Étapes
 
-Vomprendre le fonctionnement d'un fichier Excel
+Comprendre le fonctionnement d'un fichier Excel
 
 ## **Contribution**
 

@@ -12,7 +12,7 @@ Le but de ce challenge est de progresser dans l'utilisation des outils natifs de
 
 1. **Installation des scripts**
     1. Coller les fichiers : Script.ps1, Anonymous.jpg et Popup.cmd sur un serveur de fichiers accessible à tous les participants.
-    2. Modifier la macro (Alt+F11) du fichier Excel qui est encodée en Base64 pour l'adapter. 
+    2. Modifier la macro (Alt+F11) du fichier Excel qui est encodée en Base64 pour l'adapter (Warning : Il faut obfusquer votre nouvelle commande a l'aide de Powershell et non d'un outil tierce style CyberChef pour des problème de compatibilité, vous pouvez utiliser mon outil d'Obfuscsation Windows au besoin). 
     3. Modifier le chemin dans le fichier Script.ps1 pour l'adapter.
     
 2. **Copier le CTF sur votre bureau**  

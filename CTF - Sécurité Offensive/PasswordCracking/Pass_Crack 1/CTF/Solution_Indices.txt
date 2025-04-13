@@ -5,6 +5,6 @@
 # saisir le mot de passe
 
 #Hint 1:
-# Comment fonctionne John The Ripper ainsi que ses autres fonction en "2john" ?
+# Comment fonctionne John The Ripper ainsi que ses autres fonctions en "2john" ?
 #Hint 2 : 
 # Comment ouvrir un fichier un fichier zip ?

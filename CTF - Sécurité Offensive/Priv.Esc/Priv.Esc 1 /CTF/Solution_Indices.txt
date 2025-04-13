@@ -1,0 +1,5 @@
+# SOLUTION :
+# sudo -u user1 /bin/bash
+
+#Hint 1 : 
+# La commande sudo, a quoi sert-elle ? Quelles sont ses options ? https://linux.101hacks.com/unix/sudo/

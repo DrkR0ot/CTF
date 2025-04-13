@@ -1,4 +1,5 @@
-# CTF - Élévation de Privilèges : Attention aux Mauvaises Configurations !
+# CTF - Élévation de Privilèges 1  
+# Attention aux Mauvaises Configurations !
 
 Dans ce challenge, vous incarnez un utilisateur lambda sur une machine Linux. Votre mission : passer à **User1** sans exploitation complexe, uniquement en profitant de mauvaises configurations.
 
@@ -18,3 +19,8 @@ Un bon moyen de comprendre pourquoi la rigueur dans la gestion des droits est es
 ---
 
 **Bonne chance et amusez-vous bien !**
+
+# Pour reproduire 
+Si vous souhaitez reproduire le CTF chez vous 2 options s'offre a vous.
+1. Sur une machine Windows : Utiliser Docker-Desktop 
+2. Sur une machine Linux : Être root sur une machine Linux et copier-coller les commandes dans le fichier DockerFile (Attention a bien saisir le sens des commandes /!\)

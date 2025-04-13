@@ -1,3 +1,0 @@
-Solution : manneken-pis
-
-HINT_1=Avez vous regardé les chocolateries derrières ? 

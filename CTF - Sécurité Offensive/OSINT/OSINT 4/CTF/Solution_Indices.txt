@@ -1,0 +1,3 @@
+Solution=jean_bergeret,brigade_aerienne,francois_darlan,1942  
+
+HINT_1=J'aime la lecture

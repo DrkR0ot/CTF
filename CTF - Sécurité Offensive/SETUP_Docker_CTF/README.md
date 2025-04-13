@@ -9,9 +9,11 @@ Pour les utilisateurs Windows, il est fortement recommandé d’installer Docker
 Une fois l’installation terminée, rendez-vous dans le répertoire suivant :
 ```bash
 SETUP_Docker_CTF/base
+```
 
 Puis exécutez la commande suivante pour construire l’image de base utilisée par les futurs challenges :
 ```bash
 docker-compose build
+```
 
 ✅ Cette étape est essentielle pour préparer l’environnement commun sur lequel s’appuieront vos futurs scénarios CTF.

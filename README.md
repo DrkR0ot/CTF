@@ -19,3 +19,6 @@ Ce projet a pour ambition de proposer des challenges variés visant à développ
 
 ## Contribution
 Les contributions sont les bienvenues ! Si vous souhaitez ajouter des niveaux ou des idées, n'hésitez pas à soumettre une pull request ou a me contacter directement sur discord : darkryz #8163
+
+## Licence
+Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.

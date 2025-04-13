@@ -13,3 +13,6 @@ Reconstituer des faits, retrouver des identités, localiser des lieux ou démasq
 - Comprendre l’impact réel d’une empreinte numérique mal maîtrisée
 
 🎯 Parfait pour apprendre à penser comme un enquêteur… ou un attaquant qui ne touche à rien, mais voit tout.
+
+## Licence
+Ce projet est sous licence MIT et a but uniquement pédagogique. Consultez le fichier LICENSE pour plus d'informations.

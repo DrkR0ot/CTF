@@ -25,4 +25,4 @@
 # Comment ouvrir un fichier docx sans interface graphique sur linux ? 
 # Ou alors, comment convertir un fichier docx dans un autre format ?
 #Hint 6 :
-# comment se connecter sur une session ssh via une clé privée ?
+# Comment se connecter sur une session ssh via une clé privée ?

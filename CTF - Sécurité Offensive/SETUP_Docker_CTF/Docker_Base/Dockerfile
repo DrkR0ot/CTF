@@ -20,11 +20,6 @@ RUN apt-get update && apt-get install -y openssh-server nano vim cron sudo gcc l
 && chown -R root:root /home/ctf \
 && chmod 1333 /tmp /var/tmp
 
-COPY zs.crt /usr/local/share/ca-certificates/zs.crt
-
-RUN chmod 644 /usr/local/share/ca-certificates/zs.crt && update-ca-certificates
-
-
 # Exposition du port SSH
 EXPOSE 22
 

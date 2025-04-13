@@ -16,11 +16,12 @@ Identifier les failles de configuration et les utiliser pour obtenir des privil�
 
 Un bon moyen de comprendre pourquoi la rigueur dans la gestion des droits est essentielle pour la sécurité.
 
+### Pour reproduire 
+Si vous souhaitez reproduire le CTF chez vous 2 options s'offre a vous.
+1. Sur une machine Windows : Utiliser Docker-Desktop 
+2. Sur une machine Linux : Être root sur une machine Linux et copier-coller les commandes dans le fichier DockerFile (Attention a bien saisir le sens des commandes /!\\)
 ---
 
 **Bonne chance et amusez-vous bien !**
 
-# Pour reproduire 
-Si vous souhaitez reproduire le CTF chez vous 2 options s'offre a vous.
-1. Sur une machine Windows : Utiliser Docker-Desktop 
-2. Sur une machine Linux : Être root sur une machine Linux et copier-coller les commandes dans le fichier DockerFile (Attention a bien saisir le sens des commandes /!\)
+

@@ -1,0 +1,4 @@
+FLAG=my beers
+
+HINT_1=Les  métadonnées sont importantes dans les fichiers...
+HINT_2=Exif tools online est un outil pour retrouver voir les métadonnées des fichiers.

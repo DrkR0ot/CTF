@@ -20,7 +20,7 @@ Un bon moyen de comprendre pourquoi la rigueur dans la gestion des droits est es
 Si vous souhaitez reproduire le CTF chez vous, deux options s'offrent à vous :
 1. Sur une machine Windows : utilisez Docker Desktop.
 2. Sur une machine Linux : exécutez les commandes en tant que root et copiez-collez celles du fichier Dockerfile (Attention à bien comprendre le sens des commandes !)
-3. 
+
 ---
 
 **Bonne chance et amusez-vous bien !**

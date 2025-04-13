@@ -4,7 +4,9 @@ Les utilisateurs changent leur mot de passe… mais rarement leur logique.
 Dans ce challenge, vous êtes confronté à une situation réaliste : vous avez un ancien mot de passe, et vous devez deviner ou craquer le nouveau à partir de mutations courantes.
 
 🔐 Chiffres ajoutés, majuscules insérées, années modifiées, suffixes prévisibles… Les mauvaises habitudes sont souvent les meilleures amies des attaquants.
-## 🧠 Objectif : comprendre et exploiter les schémas humains de modification de mot de passe pour accéder à un compte verrouillé.
+
+## 🧠 Objectif 
+Comprendre et exploiter les schémas humains de modification de mot de passe pour accéder à un compte verrouillé.
 
 ## ❓ Pourquoi ce challenge ?
 

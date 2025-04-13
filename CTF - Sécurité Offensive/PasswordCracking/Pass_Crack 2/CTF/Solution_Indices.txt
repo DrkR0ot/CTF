@@ -1,8 +1,8 @@
 #Solution : 
 # sudo hashcat passwords.list -r rules.list --stdout > /tmp/mut_passwords.list
-# zip2john NE_JAMAIS_OUVRIR.zip > /tmp/zip4john
+# zip2john Flag.zip > /tmp/zip4john
 # sudo john /tmp/zip4john -w=/tmp/mut_passwords.list
-# unzip NE_JAMAIS_OUVRIR.zip -d /tmp/zip
+# unzip Flag.zip -d /tmp/zip
 # saisir le mot de passe
 
 #Hint 1:

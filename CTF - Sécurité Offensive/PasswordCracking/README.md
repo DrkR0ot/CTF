@@ -15,7 +15,7 @@ Dans ces challenges, vous devrez identifier, extraire et craquer des mots de pas
 - Il exploite la négligence des utilisateurs : mots de passe trop simples, stockés en clair, ou faiblement hachés.
 
 ### Pour une blue team
-Ces exercices sont tout aussi cruciaux. Comprendre les méthodes d’attaque permet de :
+**Ces exercices sont tout aussi cruciaux. Comprendre les méthodes d’attaque permet de :**
 - Renforcer les politiques de mot de passe (longueur, complexité, rotation)
 - Détecter et prévenir les attaques par bruteforce (via les logs, alertes, rate limiting)
 - Auditer régulièrement les bases de données de hachage pour identifier des mots de passe faibles ou compromis

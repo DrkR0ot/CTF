@@ -8,7 +8,7 @@ Pour les utilisateurs Windows, il est fortement recommandé d’installer Docker
 ## Etape 2 : Créer l’image de base
 Une fois l’installation terminée, rendez-vous dans le répertoire suivant :
 ```bash
-SETUP_Docker_CTF/base
+SETUP_Docker_CTF/Docker_base
 ```
 
 Puis exécutez la commande suivante pour construire l’image de base utilisée par les futurs challenges :

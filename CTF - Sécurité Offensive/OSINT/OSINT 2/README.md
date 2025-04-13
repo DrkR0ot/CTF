@@ -1,4 +1,4 @@
-# 🖼️ CTF - OSINT : La statuette
+# 🖼️ CTF - OSINT 2 : La statuette
 
 Dans ce challenge, une simple image peut révéler bien plus qu’elle ne montre. 
 

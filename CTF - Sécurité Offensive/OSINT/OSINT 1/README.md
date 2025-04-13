@@ -1,4 +1,4 @@
-# 🖼️ CTF - OSINT : Les Secrets Cachés des Fichiers
+# 🖼️ CTF - OSINT 1 : Les Secrets Cachés des Fichiers
 
 Dans ce challenge, une simple image peut révéler bien plus qu’elle ne montre. 
 

@@ -1,0 +1,16 @@
+#Solution : 
+# sudo hashcat passwords.list -r rules.list --stdout > /tmp/mut_passwords.list
+# zip2john NE_JAMAIS_OUVRIR.zip > /tmp/zip4john
+# sudo john /tmp/zip4john -w=/tmp/mut_passwords.list
+# unzip NE_JAMAIS_OUVRIR.zip -d /tmp/zip
+# saisir le mot de passe
+
+#Hint 1:
+# Qu'est ce que l'outil hashcat ?
+#Hint 2 :
+# Comment fonctionne hashcat pour générer une wordlist a partir d'une liste de règle ? 
+# (attention de bien affichier le resultat dans une autre liste pour la réutiliser plus tard)
+#Hint 3 :
+# Comment fonctionne John The Ripper ainsi que ses autres fonctions en "2john" ?
+#Hint 4 : 
+# Comment ouvrir un fichier un fichier zip ?

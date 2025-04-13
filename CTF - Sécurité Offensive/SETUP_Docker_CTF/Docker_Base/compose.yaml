@@ -1,0 +1,5 @@
+services:
+  challenge:
+    image: ctf:base
+    build:
+      context: .

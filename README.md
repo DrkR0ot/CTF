@@ -1,7 +1,7 @@
 # CTF-Training – Entraînement Red Team & Blue Team
 
 ## Description du projet
-CTF-Traininng est un projet pédagogique dédiée au **partage et à la pratique** de Capture The Flag (CTF) dans le domaine de la **cybersécurité**. 
+CTF-Traininng est un projet pédagogique dédié au **partage et à la pratique** de Capture The Flag (CTF) dans le domaine de la **cybersécurité**. 
 Ce projet a pour ambition de proposer des challenges variés visant à développer aussi bien les compétences offensives (Red Team/Pentester) que défensives (Blue Team), à travers des scénarios réalistes et accessibles à tous les niveaux.
 
 ## Objectifs pédagogiques 

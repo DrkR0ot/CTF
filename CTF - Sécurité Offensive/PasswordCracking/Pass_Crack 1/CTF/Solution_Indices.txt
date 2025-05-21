@@ -2,9 +2,9 @@
 # zip2john /home/ctf/Fichier_Sensible.zip > /tmp/zip4john
 # sudo john zip4john -w=/home/ctf/passwords.list
 # unzip Fichier_Sensible.zip -d /tmp/zip
-# saisir le mot de passe
+# enter password
 
 #Hint 1:
-# Comment fonctionne John The Ripper ainsi que ses autres fonctions en "2john" ?
-#Hint 2 : 
-# Comment ouvrir un fichier un fichier zip ?
+#How does John The Ripper and its other “2john” functions work?
+#Hint 2:
+#How do I open a zip file?

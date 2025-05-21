@@ -1,24 +1,46 @@
-# 🔓 CTF - Élévation de Privilèges : De l’Ombre à Root
+# 🔓 CTF - Privilege Escalation: From the Shadows to Root
 
-Vous avez réussi à obtenir un premier accès ? Très bien. Mais ce n’est que le début.
+You’ve gained initial access? Great. But that’s just the beginning.
 
-## L’objectif d'un attaquant
-Passer d’un utilisateur limité à un contrôle total du système.
+---
 
-Dans ces challenges, vous apprendrez à exploiter des mauvaises configurations, des droits mal attribués, des SUID, des tâches cron vulnérables, ou encore des scripts mal protégés, pour élever vos privilèges jusqu’à devenir root.
-🛠️ Un passage obligé pour tout pentester, car un simple accès ne vaut rien sans l'escalade.
-💡 Ces scénarios vous montrent à quel point une faille mineure peut devenir critique… entre de mauvaises mains.
+## 🎯 The Attacker’s Goal
 
-## ❓ Pourquoi ces challenges ?
-Ces défis permettent de comprendre comment les attaquants progressent une fois qu’ils ont un pied dans le système.
-Pour une blue team, c’est essentiel afin de :
+Go from a limited user to full system control.
 
-- 🔍 Identifier les vecteurs d’escalade les plus courants
-- 🧱 Corriger les mauvaises configurations avant qu’elles ne soient exploitées
-- 📊 Renforcer les politiques de moindre privilège
-- 🛑 Détecter les comportements suspects liés à l’élévation de privilèges (exécution de binaires sensibles, modification du /etc/passwd, etc.)
+In these challenges, you’ll learn how to exploit:
+- Misconfigurations
+- Incorrectly assigned permissions
+- Vulnerable SUID binaries
+- Abusable cron jobs
+- Poorly protected scripts
 
-🎯 En somme, maîtriser les techniques d’élévation de privilèges, c’est savoir où se cacherait un attaquant... pour mieux l’en empêcher.
+...all to escalate privileges and become **root**.
 
-## Licence
-Ce projet est sous licence MIT et a but uniquement pédagogique. Consultez le fichier LICENSE pour plus d'informations.
+🛠️ A critical step for any pentester — because initial access means nothing without escalation.  
+💡 These scenarios show how a seemingly minor misstep can become a critical vulnerability in the wrong hands.
+
+---
+
+## ❓ Why These Challenges?
+
+These challenges help you understand how attackers move once they’ve landed inside a system.
+
+### For Blue Teams, they are essential to:
+
+- 🔍 Identify the most common privilege escalation vectors  
+- 🧱 Fix misconfigurations before they’re exploited  
+- 📊 Enforce and audit least privilege policies  
+- 🛑 Detect suspicious behaviors (e.g. sensitive binary execution, editing `/etc/passwd`, etc.)
+
+---
+
+🎯 In short: mastering privilege escalation techniques teaches you where attackers might hide —  
+so you can stop them before they strike.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** and is intended for **educational purposes only**.  
+See the [LICENSE](LICENSE) file for more information.

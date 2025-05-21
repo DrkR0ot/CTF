@@ -1,4 +1,0 @@
-Etape 1 : Dézipper le fichier Excel
-Etape 2 : NAviguer aux travers des fichiers récupérer 
-Etape 3 : Ouvrir le dossier XL puis shareStrings.xml
-Etape 4 : Récupération du flag : Le flag est  : Z1P_M@$73r3d

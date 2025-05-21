@@ -1,25 +1,38 @@
-# 🔁 CTF - Mutation de mots de passe : L’humain, ma faiblesse préférée
+# 🔁 CTF - Password Mutation: Humans, My Favorite Weakness
 
-Les utilisateurs changent leur mot de passe… mais rarement leur logique.
-Dans ce challenge, vous êtes confronté à une situation réaliste : vous avez un ancien mot de passe, et vous devez deviner ou craquer le nouveau à partir de mutations courantes.
+Users change their passwords... but rarely their logic.  
+In this challenge, you’re placed in a realistic situation: you have access to an old password and must guess or crack the new one by identifying **common mutation patterns**.
 
-🔐 Chiffres ajoutés, majuscules insérées, années modifiées, suffixes prévisibles… Les mauvaises habitudes sont souvent les meilleures amies des attaquants.
+🔐 Added digits, capital letters, modified years, predictable suffixes...  
+Bad habits often become an attacker’s best ally.
 
-## 🧠 Objectif 
-Comprendre et exploiter les schémas humains de modification de mot de passe pour accéder à un compte verrouillé.
+---
 
-## ❓ Pourquoi ce challenge ?
+## 🧠 Objective
 
-### Pour un attaquant
-La mutation de mot de passe est une technique puissante :
-- Elle permet de contourner les politiques de changement de mot de passe imposées par le système.
-- Elle repose sur une connaissance du comportement utilisateur, et non sur la force brute seule.
-- Elle est souvent plus rapide qu’une attaque classique, surtout avec un mot de passe de base connu.
+Understand and exploit **human patterns in password changes** to gain access to a locked account.
 
-### Pour une blue team
-Ce type de scénario est un révélateur de vulnérabilités comportementales : 
-- Eduquer les utilisateurs à ne pas recycler ou muter légèrement leurs mots de passe
-- Mettre en place des systèmes qui détectent des mots de passe similaires à ceux précédemment utilisés
-- Utiliser des solutions MFA (authentification à deux facteurs) pour limiter l’impact d’un mot de passe compromis
+---
 
-🎯 Un excellent challenge pour apprendre que, souvent, le plus grand risque ne vient pas de la machine… mais de l’humain.
+## ❓ Why This Challenge?
+
+### For an Attacker
+
+Password mutation is a powerful technique:
+- It helps bypass systems that enforce periodic password changes.
+- It relies on understanding **user behavior**, not just brute force.
+- It’s often faster than traditional attacks — especially when a base password is already known.
+
+---
+
+### For a Blue Team
+
+This type of scenario reveals **behavioral vulnerabilities**:
+- Train users not to recycle or slightly mutate their old passwords.
+- Implement systems that **detect similarities** with previously used passwords.
+- Enforce **MFA (Multi-Factor Authentication)** to reduce the risk of compromise.
+
+---
+
+🎯 A great challenge to highlight that the biggest risk often doesn’t come from the machine…  
+but from the human using it.

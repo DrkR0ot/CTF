@@ -1,26 +1,41 @@
-# CTF 2 - Obfuscation
+# 🕵️ CTF 2 – Obfuscation Challenge
 
-L'objectif de ce CTF est de s'améliorer sur diverses techniques d'obfuscation.
+## 🎯 Objective
 
-En tant qu'attaquant, vous devez comprendre que réaliser la plupart de ces obfuscations sur des commandes et/ou scripts vous permettra de bypasser la plupart des Antivirus (les EDRs/XDRs étant pour l'instant exclus car ils se basent pous la plupart sur de l'analyse comportementale).
+The goal of this CTF is to improve your understanding and practice of various **obfuscation techniques**.
 
-## Objectif
+As an attacker, it's essential to understand that applying obfuscation to your **commands or scripts** can help bypass most **traditional antivirus solutions**.  
+*(Note: EDRs/XDRs are not in scope here, as they mostly rely on behavioral analysis rather than static signatures.)*
 
-Trouver le mot de passe du fichier Word. Ce dernier contient le Flag de ce challenge !
-Vous débuterez avec la chaine de caractères suivante :
+Your mission:  
+🔐 **Find the password to the Word document** — it contains the **flag** for this challenge!
+
+You will begin with the following encoded string:
 
 ==AAiAgLAUGAjBgbAEGAoBwYAACAlBgbA4GAvBgQAACAuAwcAUGAsBQdAMGAzBQdAoGAhBQbAACA0AAIAEGAgAQeAACAsBQSAACAuAwcAUGAzBA6AgGA0BgbAUGAyBQYAAHAgAQZAIHA0BgbAUGAgAQZAQGAuBQYA0GAtBwbAMGAgAQYAwGAgAAdAMHAlBAIAcGAhBAbAYGAgAQdAEGAgAgcAUGAkBQ6AMGAjBQYAACAyBQdA8GAwBAIAUGAzBwcAEGAwBAIAUGAkBAIAQHAvBQbAACAlBATAICAgAQKAQHAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAUHAqAQLAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAwVAACAtBwYAcGAoAgJ
 
-## Étapes
+---
 
-Vous devrez réaliser 5 étapes de déobfuscation et les comprendre.
+## 🧩 Steps to Follow
 
-> **Astuce : pour progresser** Essayez de le réaliser sans l'aide de ChatGPT ! Tout le reste est autorisé 😊
+You will need to perform **5 deobfuscation steps** to fully retrieve the cleartext content.  
+Understanding each transformation is **part of the challenge**.
+
+> 💡 **Tip**: Try to solve it **without using ChatGPT** to simulate a realistic attacker mindset.  
+> Everything else (scripts, tools, Google, etc.) is allowed! 😊
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome!  
+If you'd like to suggest new challenges or ideas, feel free to submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more information.
 
 
-## **Contribution**
-
-Les contributions sont les bienvenues ! Si vous souhaitez ajouter des niveaux ou des idées, n'hésitez pas à soumettre une pull request.
-
-## **Licence**
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.

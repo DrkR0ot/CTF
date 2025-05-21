@@ -1,24 +1,30 @@
-# CTF-Training – Entraînement Red Team & Blue Team
+# CTF-Training – Red Team & Blue Team Practice Platform
 
-## Description du projet
-CTF-Traininng est un projet pédagogique dédié au **partage et à la pratique** de Capture The Flag (CTF) dans le domaine de la **cybersécurité**. 
-Ce projet a pour ambition de proposer des challenges variés visant à développer aussi bien les compétences offensives (Red Team/Pentester) que défensives (Blue Team), à travers des scénarios réalistes et accessibles à tous les niveaux.
+## 📝 Project Description  
+**CTF-Training** is an educational project dedicated to the **sharing and hands-on practice** of Capture The Flag (CTF) challenges in the field of **cybersecurity**.  
+Its goal is to provide a variety of challenges designed to develop both **offensive (Red Team/Pentester)** and **defensive (Blue Team)** skills through realistic, accessible scenarios for all experience levels.
 
-## Objectifs pédagogiques 
-- Offrir un environnement d’apprentissage pratique et interactif.
-- Favoriser la compréhension des attaques informatiques et des mécanismes de défense.
-- Encourager la montée en compétence dans des domaines clés de la cybersécurité : exploitation de misconfigurations, craquage de mots de passe, recherche avancé, approfondissement des connaissances globales en informatique etc.
+## 🎯 Educational Objectives  
+- Provide a practical and interactive learning environment.  
+- Promote understanding of cyberattacks and defense mechanisms.  
+- Encourage skill development in key cybersecurity areas: misconfiguration exploitation, password cracking, advanced research techniques, and broader technical knowledge.
 
-## Public cible 
-Étudiants en cybersécurité, professionnels souhaitant s'entraîner, enseignants à la recherche de contenus pratiques pour illustrer leurs cours, ou encore passionnés souhaitant tester et améliorer leurs compétences.
+## 👥 Target Audience  
+- Cybersecurity students  
+- Professionals looking to sharpen their skills  
+- Educators in need of practical content to support their lessons  
+- Enthusiasts eager to test and improve their knowledge
 
-## Fonctionnalités clés 
-- Challenges classés par niveau et catégorie (Red Team / Blue Team).
-- Déploiement de Docker auto-hébergés pour des environnements réalistes.
-- Indices a dispositions pour continuer de progresser.
+## 🚀 Key Features  
+- Challenges categorized by level and type (Red Team / Blue Team)  
+- Self-hosted Docker deployment for realistic training environments  
+- Built-in hints to support continuous learning and progression
 
-## Contribution
-Les contributions sont les bienvenues ! Si vous souhaitez ajouter des niveaux ou des idées, n'hésitez pas à soumettre une pull request ou a me contacter directement sur discord : darkryz #8163
+## 🤝 Contribution  
+Contributions are welcome!  
+If you would like to add new challenges or ideas, feel free to submit a pull request or contact me directly on Discord: `darkryz#8163`
 
-## Licence
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
+## 📄 License  
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for more information.
+

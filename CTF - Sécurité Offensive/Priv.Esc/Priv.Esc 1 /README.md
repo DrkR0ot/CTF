@@ -1,28 +1,36 @@
-# CTF - Élévation de Privilèges 1  
-# Attention aux Mauvaises Configurations !
+# 🔓 CTF - Privilege Escalation 1  
+## ⚠️ Watch Out for Misconfigurations!
 
-Dans ce challenge, vous incarnez un utilisateur lambda sur une machine Linux. Votre mission : passer à **User1** sans exploitation complexe, uniquement en profitant de mauvaises configurations.
+In this challenge, you play the role of a regular user on a Linux system.  
+Your mission: escalate to **User1** without using complex exploits — just by taking advantage of **misconfigurations**.
 
-Ce scénario met en lumière des erreurs courantes que l’on retrouve trop souvent en environnement réel :
-- Droits mal définis
-- Scripts vulnérables
-- Permissions excessives
-
-## 🔎 Objectif
-
-Identifier les failles de configuration et les utiliser pour obtenir des privilèges élevés.
-
-## 💡 Pourquoi ce challenge ?
-
-Un bon moyen de comprendre pourquoi la rigueur dans la gestion des droits est essentielle pour la sécurité.
-
-### Pour reproduire 
-Si vous souhaitez reproduire le CTF chez vous, deux options s'offrent à vous :
-1. Sur une machine Windows : utilisez Docker Desktop.
-2. Sur une machine Linux : exécutez les commandes en tant que root et copiez-collez celles du fichier Dockerfile (Attention à bien comprendre le sens des commandes !)
+This scenario highlights common mistakes frequently seen in real-world environments:
+- Improperly set permissions
+- Vulnerable scripts
+- Excessive access rights
 
 ---
 
-**Bonne chance et amusez-vous bien !**
+## 🔎 Objective
 
+Identify configuration flaws and use them to escalate your privileges.
 
+---
+
+## 💡 Why This Challenge?
+
+A great way to understand why **strict permission management** is crucial to system security.
+
+---
+
+## 🛠️ How to Reproduce Locally
+
+If you'd like to reproduce this CTF on your own machine, you have two options:
+
+1. **On Windows**: Use **Docker Desktop**  
+2. **On Linux**: Run the commands as **root** and copy/paste those provided in the `Dockerfile`  
+   ⚠️ Be sure to understand what each command does before running them!
+
+---
+
+**Good luck, and have fun! 🎉**

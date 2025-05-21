@@ -1,18 +1,29 @@
-## Solution : 
-# Etape 1 : Reverse le code 
-$x="==AAiAgLAUGAjBgbAEGAoBwYAACAlBgbA4GAvBgQAACAuAwcAUGAsBQdAMGAzBQdAoGAhBQbAACA0AAIAEGAgAQeAACAsBQSAACAuAwcAUGAzBA6AgGA0BgbAUGAyBQYAAHAgAQZAIHA0BgbAUGAgAQZAQGAuBQYA0GAtBwbAMGAgAQYAwGAgAAdAMHAlBAIAcGAhBAbAYGAgAQdAEGAgAgcAUGAkBQ6AMGAjBQYAACAyBQdA8GAwBAIAUGAzBwcAEGAwBAIAUGAkBAIAQHAvBQbAACAlBATAICAgAQKAQHAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAUHAqAQLAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAwVAACAtBwYAcGAoAgJ".ToCharArray(); [array]::reverse($x); $x -join ""
+## 🛠️ Solution:
 
-# Etape 2 : 
+### 🔁 Step 1: Reverse the Code
+Use PowerShell to reverse the obfuscated string:
+
+```powershell
+$x = "=AgIA4CArBwYAUHAsBAIAQGAvBwbAcEAgAgLAMHAyBQZAQHA0BQZAwGAgAAbAEGA0BQaAAHAhBwYAACA0AAIAUGAyBQYAACAlBgcAUGAoBAVAACAuAwcAUGAzBQZAgGA0BgbAUGAyBQYAAHAgAgbAkGAgAAZA4GAhBQbA0GAvBwYAACAlBAaAQHAgAwcAkGAgAwZAEGAsBgZAACAlBAaAQHAgAwcAMHAlBwYAMGAhBAIA8GA0BAIAQGAyBwbAcHAzBwcAEGAwBAIAUGAoBAVAICAgAQKAQHAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAUHAqAQLAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAwVAACAtBwYAcGAoAgJ".ToCharArray(); 
+[array]::Reverse($x); 
+$x -join ""
+
+
+### 📦 Step 2: Decode the Base64 String
 # Décoder le base 64 
-[System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('JgAoAGcAYwBtACAAVwAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoALQAqAHUAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqAHQAKQAgACIATABlACAAbQBvAHQAIABkAGUAIABwAGEAcwBzAGUAIABwAG8AdQByACAAYQBjAGMA6QBkAGUAcgAgAGEAdQAgAGYAbABhAGcAIABlAHMAdAAgAGwAYQAgAGMAbwBtAG0AYQBuAGQAZQAgAGUAbgB0AHIAZQAgAHAAYQByAGUAbgB0AGgA6ABzAGUAcwAuACAASQBsACAAeQAgAGEAIAA0ACAAbQBhAGoAdQBzAGMAdQBsAGUAcwAuACAAQgBvAG4AbgBlACAAYwBoAGEAbgBjAGUALgAiAA=='))
+[System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('JgAoAGcAYwBtACAAVwAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoALQAqAHUAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqAHQAKQAgACIAVABoAGUAIABwAGEAcwBzAHcAbwByAGQAIAB0AG8AIABhAGMAYwBlAHMAcwAgAHQAaABlACAAZgBsAGEAZwAgAGkAcwAgAHQAaABlACAAYwBvAG0AbQBhAG4AZAAgAGkAbgAgAHAAYQByAGUAbgB0AGgAZQBzAGUAcwAuACAAVABoAGUAcgBlACAAYQByAGUAIAA0ACAAYwBhAHAAaQB0AGEAbAAgAGwAZQB0AHQAZQByAHMALgAgAEcAbwBvAGQAIABsAHUAYwBrAC4AIgA='))
 
-# Etape 3 : Comprendre que gcm est l'alias de la commande Get-Command qui elle même permet d'afficher les alias.
+This reveals the message:
 
-# Etape 4 : Comprendre le fonctionnement des *. L'indice est que la 2ième lettre après le tiret est un "u" et qu'en réalité Powershell interprète la commande malgré X nombre de "*" donc cela ne représente pas la longueur de la commande.
+    "The password to access the flag is the command in parentheses. There are 4 capital letters. Good luck."
 
-# Etape 4.bis : Saisir le mot du passe pour ouvrir le fichier flag : Get-Command Write-Output
+### Step 3 : Understand that gcm is an alias for the Get-Command command, which itself displays aliases.
 
-# Etape 5 : Décoder le flag encoder en byte 
-Il suffit de rajouter "[char]" devant l'ensemble de la chaine. L'indice ici est de regarder le formatage de la chaine de charactères. On observe alors qu'un [char] a été retiré au début.
+### Step 4 : Understand how * work. The clue is that the 2nd letter after the dash is a “u” and that in reality Powershell interprets the command despite X number of “*” so it doesn't represent the length of the command.
 
-On récupère donc le flag : "Bravo tu as fini, le flag est : 0bfusc@710n_M@$73r3d"
+### Setp 4.bis : Enter the password to open the flag file: Get-Command Write-Output
+
+### Step 5 : Decode flag encoder into byte 
+Simply add “[char]” in front of the string. The clue here is to look at the formatting of the string. We can see that a [char] has been removed at the beginning.
+
+So we get the flag: “Well done, the flag is: 0bfusc@710n_M@$73r3d”.

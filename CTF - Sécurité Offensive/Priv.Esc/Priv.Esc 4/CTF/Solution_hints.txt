@@ -6,4 +6,4 @@
 # su ROOT
 
 #Hint 1 : 
-# Avez vous penser a regardé les permissions sur des fichiers précis ?
+# Have you thought about looking at permissions on specific files?

@@ -1,0 +1,28 @@
+#Solution :
+# sudo hashcat passwords.list -r rules.list --stdout > /tmp/mut_passwords.list
+# zip2john NE_PAS_OUVRIR.zip > /tmp/zip4john
+# sudo john zip4john -w=/tmp/mut_passwords.list
+# unzip NE_PAS_OUVRIR.zip -d /tmp/zip
+# enter password
+# pandoc /tmp/home/ctf/zip/NE_PAS_OUVRIR.docx -o NE_PAS_OUVRIR.txt
+# retrieve the ssh private key from the message and put it in the right format, as it automatically contains spaces
+# when converting from docx to txt
+# python3 /usr/share/ssh2john privatekey > id_rsa
+# john id_rsa -w=/tmp/mut_passwords.list
+# chmod 600 id_rsa
+# ssh Maltazard@localhost -i id_rsa
+
+#Hint 1:
+# What is the hashcat tool?
+#Hint 2:
+# How does hashcat work to generate a wordlist from a list of rules?
+# (be sure to display the result in another list for later reuse)
+#Hint 3:
+# How does John The Ripper and its other “2john” functions work?
+#Hint 4:
+#How do I open a zip file?
+#Hint 5:
+#How do I open a docx file without a graphical interface on linux?
+#Or how to convert a docx file into another format?
+#Hint 6:
+#How can I connect to an ssh session using a private key?

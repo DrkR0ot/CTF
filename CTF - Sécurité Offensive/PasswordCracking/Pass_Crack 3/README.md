@@ -1,22 +1,33 @@
-# 🧠💥 CTF - Le Labyrinthe des Secrets : L’Enfer des Mots de Passe
+# 🧠💥 CTF - The Labyrinth of Secrets: The Password Hell
 
-Bienvenue dans un challenge aussi improbable que terrifiant : un système dans lequel chaque mot de passe est une faille et chaque utilisateur une énigme.
+Welcome to a challenge as improbable as it is terrifying: a system where **every password is a vulnerability** and **every user is a riddle**.
 
-- 💾 Des bases de données mal protégées.
-- 📎 Des fichiers mal formaté.
-- 💬 Des indices laissés dans des notes.
+- 💾 Poorly secured databases  
+- 📎 Badly formatted files  
+- 💬 Clues left in random notes  
 
-Dans ce CTF, votre mission est simple : craquer, deviner, récupérer, reformater, jusqu’à remonter la chaîne complète des erreurs humaines et techniques... et accéder à l’ultime flag maître.
+In this CTF, your mission is simple: **crack, guess, recover, reformat — over and over again —** until you uncover the full chain of **human and technical failures**... and reach the ultimate **master flag**.
 
-## 🎯 Objectif :
-Tester toutes vos connaissances aussi bien générales qui sur les outils de crackage de mots de passe.
+---
 
-## 🔍 Ce challenge vous mettra à l’épreuve avec :
-- Des attaques par dictionnaire classiques
-- Du zip2john, hashcat, john
-- Vos connaissances Linux
-- Vos connaissances sur les extensions de fichiers
+## 🎯 Objective
 
-## Disclaimer 
-**Difficulté élevée**
-🧩 Il s'agit d'Un CTF absurde, hilarant, mais irréaliste. 
+Put all your knowledge to the test — from general logic to advanced **password cracking tools**.
+
+---
+
+## 🔍 This challenge will test you with:
+
+- Classic dictionary attacks  
+- `zip2john`, `hashcat`, `john`  
+- Your **Linux skills**  
+- Your understanding of **file formats and extensions**
+
+---
+
+## ⚠️ Disclaimer
+
+**High difficulty level**
+
+🧩 This is an absurd, hilarious, and intentionally **unrealistic** CTF.  
+But you'll have fun — and probably learn a lot.

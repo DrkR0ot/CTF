@@ -1,0 +1,5 @@
+# SOLUTION :
+# sudo -u user1 /bin/bash
+
+#Hint 1 : 
+# What is the sudo command used for? What are its options? https://linux.101hacks.com/unix/sudo/

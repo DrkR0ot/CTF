@@ -5,4 +5,4 @@
 # /tmp/mybash -p
 
 #Hint 1 :
-# Y a-t-il des taches récurrentes ?
+# Are there any recurring tasks?

@@ -1,2 +1,2 @@
 @echo off
-msg * "Tu n as pas fini le CTF, force et honneur !"
+msg * "You haven't finished the CTF, strength and honor!"

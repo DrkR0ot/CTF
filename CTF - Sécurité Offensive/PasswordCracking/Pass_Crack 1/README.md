@@ -1,20 +1,35 @@
-# 🗜️ CTF - Le ZIP Mystérieux : Mot de Passe Requis
+# 🗜️ CTF - The Mysterious ZIP: Password Required
 
-Un fichier ZIP vous est fourni... mais il est verrouillé par un mot de passe.
+A ZIP file has been provided... but it's protected by a password.
 
-## Votre objectif  
-Déverrouiller l'archive en utilisant des techniques de bruteforce ou d’attaque par dictionnaire, et accéder au fichier caché à l’intérieur.
+---
 
-## Pourquoi ce challenge
-🔐 Ce challenge met en lumière la faiblesse des mots de passe simples, et l'importance d’un bon chiffrement.
+## 🎯 Your Objective
 
-## Prérequis 
-Une bonne connaissance des outils de bruteforce sera nécessaire.
+Unlock the archive using **brute force** or **dictionary attack techniques**, and gain access to the hidden file inside.
 
-## Pour reproduire
-Si vous souhaitez reproduire le CTF chez vous, deux options s'offrent à vous :
+---
 
-    Sur une machine Windows : utilisez Docker Desktop.
-    Sur une machine Linux : exécutez les commandes en tant que root et copiez-collez celles du fichier Dockerfile (Attention à bien comprendre le sens des commandes !)
+## ❓ Why This Challenge?
 
-**Bonne chance et amusez-vous bien !**
+🔐 This challenge highlights the weakness of simple passwords and the importance of using **strong encryption**.
+
+---
+
+## 🧰 Requirements
+
+A good understanding of **brute force tools** will be essential.
+
+---
+
+## 🛠️ How to Reproduce the CTF Locally
+
+If you'd like to replicate the challenge on your own machine, here are two options:
+
+- **On Windows:** Use **Docker Desktop**
+- **On Linux:** Run the commands as **root** and copy/paste the instructions from the provided `Dockerfile`  
+  ⚠️ Make sure you understand what each command does before executing it!
+
+---
+
+**Good luck and have fun! 🎉**

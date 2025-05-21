@@ -1,20 +1,37 @@
-# CTF 3 - ZIP
+# 📦 CTF 3 – ZIP (Excel File Recovery Challenge)
 
-L'objectif de ce CTF est d'améliorer nos connaissances sur la structure interne des fichiers comme Excel, Word ou encore PowerPoint (dans ce cas précis, Excel). Il n’est pas impossible qu’un jour vous receviez un fichier Word, Excel ou autre, qui semble corrompu. Dans ce cas, à travers ce CTF, nous verrons une technique permettant de récupérer son contenu, même s’il a été endommagé.
-⚠️ Attention : cette méthode ne fonctionne pas dans tous les cas.
+## 📝 Description
 
-## Objectif
+The objective of this CTF is to deepen your understanding of the **internal structure of document files** such as Excel, Word, or PowerPoint (in this case, an Excel file).  
+It's not uncommon to receive a seemingly corrupted document file. Through this challenge, you'll learn a method to **recover content** even if the file has been damaged.
 
-Trouver le flag contenu dans le fichier Excel corrompu. 
-Renseignez vous sur les diverses façons d'ouvrir un fichier Excel.
+⚠️ **Note:** This method does not work in all situations, but it's a valuable technique to know.
 
-## Étapes
+---
 
-Comprendre le fonctionnement d'un fichier Excel
+## 🎯 Goal
 
-## **Contribution**
+Find the **flag hidden inside the corrupted Excel file**.  
+Take some time to research different ways to open or extract the contents of an Excel file.
 
-Les contributions sont les bienvenues ! Si vous souhaitez ajouter des niveaux ou des idées, n'hésitez pas à soumettre une pull request.
+---
 
-## **Licence**
-Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus d'informations.
+## 🔍 Steps
+
+- Understand how an Excel file is structured internally (spoiler: it's a ZIP archive 😉)
+- Explore how to manually extract or inspect contents even if the file extension is not `.zip`
+- Locate and extract the flag from the corrupted file contents
+
+---
+
+## 🤝 Contribution
+
+Contributions are welcome!  
+If you'd like to add new challenges or ideas, feel free to submit a pull request.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for more information.

@@ -2,5 +2,5 @@ Solution=p'tit piton
 
 HINT_1=Google is your friend
 HINT_2=Sorry, google image search is your friend!
-HINT_3=It's in chartreuse
+HINT_3=It's in Chartreuse, France
 HINT_4=Sometimes with the apostrophe, often marked without. Once found, you're sure of the name.

@@ -1,17 +1,32 @@
-# 🖼️ CTF - OSINT 4 : Un soldat à terre
+# 🖼️ CTF - OSINT 4: A Fallen Soldier
 
-Dans ce challenge, une simple image peut révéler bien plus qu’elle ne montre. 
+In this challenge, a single image might reveal much more than it shows.
 
-## Votre mission 
-**Pour la difficulté**, ne copier pas cette image sur internet. Cette dernière a eut un article par la suite (qui ne fut pas présent au moment de la création du CTF).
-Analyser tout d'une image en ayant des restrictions.
+---
 
-## Flag
-Le flag est au format : prénom_nom,brigade_xxxx,prénom_nom,2023 
-Il n'y a pas d'accent, pas de majuscule, pas de ponctuation, pas de cédille etc. Les espaces sont remplacés par des underscores "_" et les réponses aux questions se suivent séparées par des virgules.
+## 🎯 Your Mission
 
-## Questions :
-1. Qui lit la lettre ?
-2. A quelle brigade appartient-il ?
-3. Qui est décédé ?
-4. En quelle année ?
+**To increase the difficulty**, do **not upload the image online**.  
+This photo was later featured in an article — but that article did **not exist at the time this CTF was created**.
+
+Your task is to analyze everything in the image while respecting this restriction.
+
+---
+
+## 🏁 Flag
+
+The flag format is:
+firstname_lastname,brigade_xxxx,firstname_lastname,2023
+
+⚠️ No accents, no capital letters, no punctuation, no cedilla, etc.  
+Spaces must be replaced with underscores `_`.  
+Answers are concatenated in order and separated by commas.
+
+---
+
+## ❓ Questions
+
+1. Who is reading the letter?  
+2. Which brigade does he belong to?  
+3. Who has died?  
+4. In what year?

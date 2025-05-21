@@ -1,6 +1,0 @@
-Solution=p'tit piton
-
-HINT_1=Google est ton ami
-HINT_2=Pardon, google image search est ton ami !
-HINT_3=C'est en chartreuse
-HINT_4=Parfois avec l'apostrophe, souvent marqué sans. Une fois trouvée, on est sur du nom.

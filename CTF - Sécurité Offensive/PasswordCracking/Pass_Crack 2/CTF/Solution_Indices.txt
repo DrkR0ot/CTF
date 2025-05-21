@@ -3,14 +3,14 @@
 # zip2john Flag.zip > /tmp/zip4john
 # sudo john /tmp/zip4john -w=/tmp/mut_passwords.list
 # unzip Flag.zip -d /tmp/zip
-# saisir le mot de passe
+# enter password
 
 #Hint 1:
-# Qu'est ce que l'outil hashcat ?
-#Hint 2 :
-# Comment fonctionne hashcat pour générer une wordlist a partir d'une liste de règle ? 
-# (attention de bien affichier le resultat dans une autre liste pour la réutiliser plus tard)
-#Hint 3 :
-# Comment fonctionne John The Ripper ainsi que ses autres fonctions en "2john" ?
-#Hint 4 : 
-# Comment ouvrir un fichier un fichier zip ?
+# What is the hashcat tool?
+#Hint 2:
+# How does hashcat work to generate a wordlist from a list of rules?
+# (be sure to display the result in another list for later reuse)
+#Hint 3:
+# How does John The Ripper and its other “2john” functions work?
+#Hint 4:
+#How do I open a zip file?

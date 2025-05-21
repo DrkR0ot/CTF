@@ -1,11 +1,18 @@
-# 🖼️ CTF - OSINT 2 : La statuette
+# 🖼️ CTF - OSINT 2: The Statuette
 
-Dans ce challenge, une simple image peut révéler bien plus qu’elle ne montre. 
+In this challenge, a single image might reveal much more than it shows.
 
-## Votre mission  
-Analyser le décor, les boutiques, tout. Tous les éléments peuvent permettre d'augmenter ses connaissances sur un lieu.
+---
 
-🔍 Un excellent moyen de découvrir à quel point au travers d'une photo nous pouvons obtenir beaucoup d'informations.
+## 🎯 Your Mission
 
-## Flag
-Le flag ici est ce que prenne en photo ces touristes.
+Analyze the background, the shops, the environment — **every detail matters**.  
+Each visual element can help you **learn more about the location** or context of the photo.
+
+🔍 This is a great example of how much information can be uncovered just from a single picture.
+
+---
+
+## 🏁 Flag
+
+The flag is **what the tourists are taking a picture of**.

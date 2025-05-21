@@ -10,7 +10,7 @@ $x -join ""
 ```
 
 
-###📦 Step 2: Decode the Base64 String 
+### 📦 Step 2: Decode the Base64 String 
 ```powershell
 [System.Text.Encoding]::Unicode.GetString([System.Convert]::FromBase64String('JgAoAGcAYwBtACAAVwAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoALQAqAHUAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqACoAKgAqAHQAKQAgACIAVABoAGUAIABwAGEAcwBzAHcAbwByAGQAIAB0AG8AIABhAGMAYwBlAHMAcwAgAHQAaABlACAAZgBsAGEAZwAgAGkAcwAgAHQAaABlACAAYwBvAG0AbQBhAG4AZAAgAGkAbgAgAHAAYQByAGUAbgB0AGgAZQBzAGUAcwAuACAAVABoAGUAcgBlACAAYQByAGUAIAA0ACAAYwBhAHAAaQB0AGEAbAAgAGwAZQB0AHQAZQByAHMALgAgAEcAbwBvAGQAIABsAHUAYwBrAC4AIgA='))
 ```
@@ -20,7 +20,8 @@ This reveals the message:
 
 ### Step 3 : Understand that gcm is an alias for the Get-Command command, which itself displays aliases.
 
-### Step 4 : Understand how * work. The clue is that the 2nd letter after the dash is a “u” and that in reality Powershell interprets the command despite X number of “*” so it doesn't represent the length of the command.
+### Step 4 : Understand how * work. 
+The clue is that the 2nd letter after the dash is a “u” and that in reality Powershell interprets the command despite X number of “*” so it doesn't represent the length of the command.
 
 ### Setp 4.bis : Enter the password to open the flag file: Get-Command Write-Output
 

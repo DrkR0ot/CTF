@@ -1,19 +1,28 @@
-# 🛠️ Reproduire les challenges en local avec Docker
+# 🛠️ Running CTF Challenges Locally with Docker
 
-Si vous souhaitez reproduire les challenges CTF en local à l’aide des conteneurs Docker, veuillez suivre les étapes ci-dessous :
-## Etape 1 : Installer Docker et Docker Compose
-Avant de créer un challenge, assurez-vous d’avoir Docker et Docker Compose installés sur votre machine.
-Pour les utilisateurs Windows, il est fortement recommandé d’installer Docker Desktop, qui inclut tout le nécessaire.
+If you want to reproduce the CTF challenges locally using Docker containers, please follow the steps below:
 
-## Etape 2 : Créer l’image de base
-Une fois l’installation terminée, rendez-vous dans le répertoire suivant :
+---
+
+## 🧩 Step 1: Install Docker and Docker Compose
+
+Before creating or running any challenge, make sure **Docker** and **Docker Compose** are installed on your machine.  
+For Windows users, it is highly recommended to install **Docker Desktop**, which includes everything you need.
+
+---
+
+## 🧱 Step 2: Build the Base Image
+
+Once Docker is installed, navigate to the following directory:
+
 ```bash
 SETUP_Docker_CTF/Docker_base
 ```
-
-Puis exécutez la commande suivante pour construire l’image de base utilisée par les futurs challenges :
+Then run the following command to build the base image that will be used across future challenges:
 ```bash
 docker-compose build
 ```
 
-✅ Cette étape est essentielle pour préparer l’environnement commun sur lequel s’appuieront vos futurs scénarios CTF.
+✅ This step is essential to prepare the common environment on which all your CTF scenarios will be based.
+
+---

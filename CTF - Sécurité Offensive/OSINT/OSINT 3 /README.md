@@ -1,12 +1,21 @@
-# 🖼️ CTF - OSINT 3 : La voie
+# 🖼️ CTF - OSINT 3: The Route
 
-Dans ce challenge, une simple image peut révéler bien plus qu’elle ne montre. 
+In this challenge, a single image might reveal much more than it shows.
 
-## Votre mission  
-Savoir rebondir sur une information pour en déécouvrir une autre est primordial en OSINT.
+---
 
-🔍 Un excellent moyen de découvrir à quel point au travers d'une photo nous pouvons obtenir beaucoup d'informations.
+## 🎯 Your Mission
 
-## Flag
-Trouver le nom de la voie d'escalade d'où a été prise cette photo. Elle a la forme suivante: p'*** *****. 
-**Bonne chance !**
+In OSINT, the ability to **pivot from one piece of information to another** is essential.  
+One clue can lead to the next — learning how to follow the trail is key.
+
+🔍 This challenge is a great example of how much can be discovered through a simple photograph.
+
+---
+
+## 🏁 Flag
+
+Find the **name of the climbing route** from which this photo was taken.  
+The flag follows this format: `p'*** *****`
+
+**Good luck!**

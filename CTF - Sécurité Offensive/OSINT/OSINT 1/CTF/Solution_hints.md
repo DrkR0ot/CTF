@@ -1,6 +1,6 @@
 ## Flag 
 
->Flag =my beers
+Flag =my beers
 ----
 
 ## 💡 Hints

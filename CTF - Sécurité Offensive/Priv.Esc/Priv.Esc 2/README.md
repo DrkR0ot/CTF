@@ -1,23 +1,31 @@
-# CTF - Élévation de Privilèges 2 
-# Élévation de Privilèges via SUID
+# 🔓 CTF - Privilege Escalation 2  
+## 🛠️ Privilege Escalation via SUID
 
-Dans ce challenge, explorez l’impact des fichiers/binaires SUID mal sécurisés. En tant qu’utilisateur non privilégié, votre objectif sera d’exploiter des binaires dotés du bit SUID pour obtenir un accès a **User2**.
-
-## 🔎 Objectif
-
-💣 Ce scénario met en lumière comment des programmes pourtant légitimes peuvent devenir une porte d’entrée critique en cas de mauvaise configuration.
-
-## 💡 Pourquoi ce challenge ?
-
-🛡️ Une bonne occasion de comprendre pourquoi les SUID doivent être utilisés avec extrême précaution.
-
-### Pour reproduire 
-Si vous souhaitez reproduire le CTF chez vous, deux options s'offrent à vous :
-1. Sur une machine Windows : utilisez Docker Desktop.
-2. Sur une machine Linux : exécutez les commandes en tant que root et copiez-collez celles du fichier Dockerfile (Attention à bien comprendre le sens des commandes !)
+In this challenge, you’ll explore the impact of **misconfigured SUID binaries**.  
+As a non-privileged user, your goal is to exploit **SUID-enabled binaries** to escalate access to **User2**.
 
 ---
 
-**Bonne chance et amusez-vous bien !**
+## 🔎 Objective
 
+💣 This scenario highlights how otherwise legitimate programs can become a critical entry point if misconfigured.
 
+---
+
+## 💡 Why This Challenge?
+
+🛡️ It's a great opportunity to understand why **SUID permissions must be handled with extreme care** — and how attackers can abuse them.
+
+---
+
+## 🛠️ How to Reproduce Locally
+
+If you’d like to reproduce this CTF on your own machine, you have two options:
+
+1. **On Windows**: Use **Docker Desktop**  
+2. **On Linux**: Run the commands as **root** and copy/paste those from the `Dockerfile`  
+   ⚠️ Make sure you fully understand what each command does before running them!
+
+---
+
+**Good luck, and have fun! 🎉**

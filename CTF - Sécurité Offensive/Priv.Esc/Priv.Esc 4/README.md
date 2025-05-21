@@ -1,24 +1,33 @@
-# CTF - Élévation de Privilèges 4 
-# Élévation de Privilèges via des misconfigurations combinées
+# 🔓 CTF - Privilege Escalation 4  
+## 🧬 Privilege Escalation via Combined Misconfigurations
 
-Dans ce challenge, vous devrez enchaîner plusieurs élévations de privilèges causées par des mauvaises configurations cumulées : droits excessifs, **fichiers** mal protégés, scripts vulnérables...
-Votre objectif final ? Ajouter votre propre utilisateur dans /etc/passwd avec l’UID 0, devenant ainsi un root fantôme indétectable à première vue.
+In this challenge, you'll need to chain multiple privilege escalation steps caused by **cumulative misconfigurations**: excessive permissions, poorly protected **files**, vulnerable scripts...
 
-## 🔎 Objectif
-
-⚠️ Ce scénario illustre comment des erreurs apparemment bénignes, combinées, peuvent conduire à une prise de contrôle complète du système.
-
-## 💡 Pourquoi ce challenge ?
-
-🔍 L'occasion parfaite pour apprendre à penser comme un attaquant, et surtout, comme un défenseur averti.
-
-### Pour reproduire 
-Si vous souhaitez reproduire le CTF chez vous, deux options s'offrent à vous :
-1. Sur une machine Windows : utilisez Docker Desktop.
-2. Sur une machine Linux : exécutez les commandes en tant que root et copiez-collez celles du fichier Dockerfile (Attention à bien comprendre le sens des commandes !)
+🎯 Your ultimate goal?  
+Add your own user to `/etc/passwd` with UID 0, becoming a **stealth root user** — invisible at first glance.
 
 ---
 
-**Bonne chance et amusez-vous bien !**
+## 🔎 Objective
 
+⚠️ This scenario shows how seemingly minor security issues, when combined, can lead to **full system compromise**.
 
+---
+
+## 💡 Why This Challenge?
+
+🔍 A perfect opportunity to learn how to think like an attacker — and more importantly, like a **proactive defender**.
+
+---
+
+## 🛠️ How to Reproduce Locally
+
+If you'd like to reproduce this CTF on your own machine, here are two options:
+
+1. **On Windows**: Use **Docker Desktop**  
+2. **On Linux**: Run the commands as **root** and copy/paste those from the provided `Dockerfile`  
+   ⚠️ Be sure to fully understand what each command does before running them!
+
+---
+
+**Good luck, and have fun! 🎉**
